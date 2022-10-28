@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.formulario {
+    text-align: center;
+}
+
+.form {
+    margin: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.inputAgregar {
+    margin: 10px;
+}
+
+.buscador {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    background-color: rgb(251, 241, 241);
+    box-shadow: rgba(195, 195, 207, 0.2) 0px 7px 29px 0px;
+}
+
+.buscador h4 {
+    color: whitesmoke;
+    margin-left: 20px;
+}
+
+.buscador button {
+    margin: 10px;
+}
+
+.buscador input {
+    margin: 10px;
+}
+
+.buscador p {
+    margin: 10px;
+    margin-left: 40px;
+    color: whitesmoke;
+}
+
+.displayList {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    box-shadow: rgba(253, 253, 255, 0.2) 0px 7px 29px 0px;
+
+}
+
+.list {
+    display: flex;
+}
+
+.resultado {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.classFooter {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    background-color: rgb(252, 252, 252);
+    padding: 10px;
+}
+
+h1 {
+    margin: 20px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.agregar {
+    padding: 20px;
+    background-color: aliceblue;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.agregar button {
+    margin-top: 10px;
+}
+.footer {
+    border-color: black;
+    text-align: center;
+    font-weight: bolder;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-size: 400%;
+    animation: move 5s ease infinite;
+    background-image: linear-gradient(
+      68.7deg,
+      rgb(29, 235, 115) 13.2%,
+      rgba(137, 149, 250, 1) 29.8%,
+      rgb(43, 6, 37) 48.9%,
+      rgb(145, 45, 76) 68.2%,
+      rgba(255, 94, 0, 1) 86.4%
+    );
+    margin-top: auto;
+  }
+
+  body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background: linear-gradient(-45deg, #5c5757, #625670, #536555, #323659);
+  background-size: 400% 400%;
+  -webkit-animation: gradient 15s ease infinite;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+}
+
+
+@-webkit-keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  @keyframes move {
+    0%,
+    100% {
+      background-position: 200% 0%;
+    }
+  
+    50% {
+      background-position: 0% 200%;
+    }
+  }
+  
