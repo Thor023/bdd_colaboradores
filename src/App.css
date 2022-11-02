@@ -1,3 +1,6 @@
 body, #root{
     margin: 0px;
 }
+:root {
+    --var-color: rgb(12, 98, 237);
+}

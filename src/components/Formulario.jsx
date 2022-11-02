@@ -29,7 +29,10 @@ function Formulario() {
   return (
 
     <div class="formulario">
-      <h1>Desafio 3 React</h1>
+      <div class="light">
+      <h1 class="titulo" data-text="Desafio 3 React">Desafio 3 React</h1>
+      </div>
+      
       <Buscador />
       <div class="form">
         <div class="agregar">

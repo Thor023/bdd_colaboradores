@@ -1,9 +1,9 @@
 const Footer = () => {
-  return (
-      <div>
-          <div className='footer'>Powered By ProgramaThor</div>
+    return <>
+      <div class="classFooter">
+        <h6>Powered by ProgramaThor</h6>
       </div>
-  );
-};
-
-export default Footer;
+    </>
+  }
+  
+  export default Footer;
